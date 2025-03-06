@@ -7,10 +7,7 @@ import com.sachin.Student.service.StudentService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import reactor.core.publisher.Mono;
-
 import java.util.List;
 
 @Service
@@ -23,15 +20,17 @@ public class StudentServiceImpl implements StudentService
     @Autowired
     private ApiCallWebClient webClient;
 
-    @GetMapping("/webclient/{id}")
-    public StudentDetail StudentDetailsWebClient(@PathVariable int id)
+    @Override
+    public StudentDetail StudentDetailsWebClient(int id)
     {
         Student s = studentRepository.findById(id).orElse(null);
-        Mono<Course> courseMono = webClient.get
+        System.out.println("StudentServiceImpl " + s.getName() + "=" + s.getCourseId());
+        Mono<Course> courseMono = webClient.getCourseDetails(s.getCourseId());
+        Course course = courseMono.block();
 
         StudentDetail sd = new StudentDetail();
         BeanUtils.copyProperties(s, sd);
-        sd.setCourse(c);
+        sd.setCourse(course);
         return sd;
     }
 

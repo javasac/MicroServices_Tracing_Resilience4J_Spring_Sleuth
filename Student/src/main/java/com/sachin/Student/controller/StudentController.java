@@ -16,6 +16,7 @@ public class StudentController
     @GetMapping("/webclient/{id}")
     public StudentDetail StudentDetailsWebClient(@PathVariable int id)
     {
+        System.out.println("StudentController -> webclient " + id);
         return simpl.StudentDetailsWebClient(id);
     }
 
