@@ -6,7 +6,8 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="course")
-public class Course {
+public class Course
+{
     @Id
     private int courseId;
     private String name;

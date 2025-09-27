@@ -10,14 +10,14 @@ public class Student
     private int id;
     private String name;
     private String cell;
-    private int courseId;
+    private int courseid;
 
     public int getCourseId() {
-        return courseId;
+        return courseid;
     }
 
-    public void setCourseId(int courseId) {
-        this.courseId = courseId;
+    public void setCourseId(int courseid) {
+        this.courseid = courseid;
     }
 
     public int getId() {

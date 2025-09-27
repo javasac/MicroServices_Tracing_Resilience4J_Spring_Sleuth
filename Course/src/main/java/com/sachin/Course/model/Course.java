@@ -3,9 +3,10 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name="course")
-public class Course {
+public class Course
+{
     @Id
-    private int courseId;
+    private int courseid;
     private String name;
     private int duration;
 
@@ -22,11 +23,11 @@ public class Course {
     }
 
     public int getCourseId() {
-        return courseId;
+        return courseid;
     }
 
-    public void setCourseId(int courseId) {
-        this.courseId = courseId;
+    public void setCourseId(int courseid) {
+        this.courseid = courseid;
     }
 
     public void setDuration(int duration) {
