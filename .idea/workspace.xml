@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b95a9a19-4273-43b5-8706-ef46e223a0d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course/src/main/java/com/sachin/Course/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Course/src/main/java/com/sachin/Course/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Course/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Course/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaRegistery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaRegistery/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Student/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/com/sachin/Student/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student/src/main/java/com/sachin/Student/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/java/com/sachin/Student/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student/src/main/java/com/sachin/Student/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Student/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "javasac"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/javasac/MicroServices_Tracing_Resilience4J_Spring_Sleuth.git",
+    "accountId": "df8eb9fe-e099-43ee-86c4-165881cba92f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="33I2qo4wtu09my7eHaJYk6TV8Tk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.CourseApplication.executor": "Run",
+    "Application.EurekaRegisteryApplication.executor": "Run",
+    "Application.StudentApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b95a9a19-4273-43b5-8706-ef46e223a0d8" name="Changes" comment="" />
+      <created>1758990461972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758990461972</updated>
+    </task>
+    <servers />
+  </component>
+</project>
